@@ -1,0 +1,47 @@
+.main {
+    padding: 50px 120px 0 120px;
+    background-color: $section-bg;
+   
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px;
+    
+}
+.main-inner {
+    display: flex;
+    justify-content: space-around;
+}
+.main-subtitle {
+    padding-top: 50px 0 22px 0;   
+    font-family: "Roboto Condensed",sans-serif;
+    line-height: 35px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4E4E4E;
+}
+.main-block+.main-block {
+    margin-left: 31px; 
+}
+.main-block {
+     
+    &__subtitle {
+        line-height: 24px;
+        color: #4E4E4E;
+    }
+    &__text {        
+        font-size: 13px;
+        line-height: 20px;
+        color: #ADADAD;
+    }
+    &__descr {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #5C5C5C;
+        padding-bottom: 63px;
+    }
+   
+}
+

@@ -1,0 +1,26 @@
+.features {
+    background-color: $section-bg;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 72px;
+    padding-bottom: 49px;
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+}
+.features-block {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #4E4E4E;
+
+    width: 257px;
+
+    
+    &__text {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+    }
+}

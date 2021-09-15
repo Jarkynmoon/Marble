@@ -1,0 +1,45 @@
+.footer {
+    background-color: $footer-bg;
+    
+}
+.footer-inner {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 120px 0 120px;
+    padding: 47px 0 50px 0;
+    border-bottom: 2px solid #353535;
+
+    &__title {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #6C6C6C;
+
+        padding-left: 32px;
+    }
+
+    &__item {
+        font-size: 14px;
+        line-height: 24px;
+        color: #CACACA;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+    }
+}
+
+.footer-inner__item, li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 12px;
+}
+.footer-licenses {
+    margin: 0 120px 0 120px;
+    padding: 45px 0 45px 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #CACACA;
+}

@@ -1,0 +1,26 @@
+.testimonial {
+    width: 100%;
+  
+    background-color: #EFEFEF;
+    height: 284px;
+}
+.testimonial-inner {
+    color: black;
+    text-align: center;
+    padding: 67.2px 0 91px 0;
+
+    &__img {
+        width: 37.5px;
+        height: 29.3px;
+    }
+
+    &__text {
+        font-family: "Roboto Slab", sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        color: #A1A1A1;
+
+        
+       
+    }
+}
